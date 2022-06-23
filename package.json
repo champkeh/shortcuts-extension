@@ -1,0 +1,24 @@
+{
+  "name": "shortcuts-extension",
+  "version": "1.0.0",
+  "description": "浏览器快捷键插件，优化网页体验",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/champkeh/shortcuts-extension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/champkeh/shortcuts-extension/issues"
+  },
+  "homepage": "https://github.com/champkeh/shortcuts-extension#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.190",
+    "@types/node": "^18.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Shortcuts Extension",
+  "version": "1.0.0",
+  "description": "给网页添加快捷键，优化用户体验",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+  ],
+  "content_scripts": [
+    {
+      "js": ["content_scripts/chrome.docs.js"],
+      "matches": ["*://developer.chrome.com/docs/*"],
+      "run_at": "document_end"
+    }
+  ]
+}
